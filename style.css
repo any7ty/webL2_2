@@ -1,0 +1,50 @@
+input[type="checkbox"] {
+box-shadow: 0 0 4px 1px #888;
+}
+
+input[type="checkbox"]:checked {
+box-shadow: 0 0 4px 1px #e53935;
+}
+
+div.cb {
+background-color: #e3f2fd;
+}
+
+#message,
+[id^="message-"] {
+background-color: #fff9c4;
+}
+
+[id^="message-"] {
+border: 2px solid #90caf9;
+margin: 6px 0;
+}
+
+a[href$=".zip"]:hover {
+color: #d81b60;
+}
+
+[data-action~="delete"] {
+color: #b71c1c;
+}
+
+[data-action]:not([data-action~="delete"]) {
+background-color: #c8e6c9;
+}
+
+#messages li:nth-child(even) {
+border-style: dashed;
+border-width: 3px;
+}
+
+#widget-title + * {
+font-weight: bold;
+}
+
+#widget-title ~ a {
+font-style: italic;
+}
+
+#messages li:last-child a:hover {
+color: #00897b;
+}
