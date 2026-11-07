@@ -21,7 +21,7 @@ margin: 6px 0;
 }
 
 a[href$=".zip"]:hover {
-color: #d81b60;
+color: #FFC0CB;
 }
 
 [data-action~="delete"] {
